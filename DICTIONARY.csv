@@ -1,0 +1,17 @@
+DAP_NAME;VarName;VarName_SubCat;category;integerVal;oriVal
+DAP1;L_SMOKESTATUS_COV;;never;1;0
+DAP1;L_SMOKESTATUS_COV;;former;2;2
+DAP1;L_SMOKESTATUS_COV;;current;3;1
+DAP2;L_SMOKESTATUS_COV;;current;3;current
+DAP2;L_SMOKESTATUS_COV;;current;3;yes
+DAP2;L_SMOKESTATUS_COV;;never or former;5;no
+TEST;L_SMOKESTATUS_COV;smoke_1;never;1;never_test
+TEST;L_SMOKESTATUS_COV;smoke_2;former;2;former_test
+TEST;L_SMOKESTATUS_COV;smoke_3;current;3;current_test
+TEST;L_SMOKESTATUS_COV;smoke_3;current;3;current
+ALL;L_SEX_COV;sex_1;F;1;F
+ALL;L_SEX_COV;sex_2;M;2;M
+DAP3;L_SMOKESTATUS_COV;;UNK;4;unknown
+DAP3;L_SMOKESTATUS_COV;;never;1;never
+DAP3;L_SMOKESTATUS_COV;;former;2;former
+DAP3;L_SMOKESTATUS_COV;;current;3;current
