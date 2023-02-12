@@ -1,2 +1,2 @@
 # Metadata
-ConcePTION developed by RWE Dept. from UMC Utrecht.
+ConcePTION data model developed by RWE Dept. from UMC Utrecht.
