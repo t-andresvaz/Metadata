@@ -1,0 +1,6 @@
+Variable,Mandatory,Description,Format,Vocabulary,Comments,Example1,Example2
+person_id,Yes,"A foreign key to the person in PERSONS table","Character","","","",""
+op_start_date,Yes,,,"Character yyyymmdd","","",""
+op_end_date,Yes,,,"Character yyyymmdd","","If this is missing, it means that at the time when the instance ws generated the person was still observed",""
+op_meaning,Yes,"represents the semantic of the record","Character","see corresponding vocabulary table","This field captures and classifies relevant infomation with respect to the interpretation of this record. It may capture the prompt, or specificities of the content, from the source of this record. A recommended vocabulary is available, but ultimately it is open and new values can be freely added if deemed relevant","",""
+op_origin,Yes,"name of the source table that originated the record","Character","","This column contains the name of the source table for each record.","",""

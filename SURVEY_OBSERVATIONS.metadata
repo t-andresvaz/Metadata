@@ -1,0 +1,10 @@
+Variable,Mandatory,Description,Format,Vocabulary,Comments,Example1,Example2
+person_id,Yes,,,"Character","","",""
+so_date,Yes,,,"Character yyyymmdd","","",""
+so_source_table,Yes,,,"Character","see corresponding vocabulary table","",""
+so_source_column,Yes,,,"Character","","here we just refer to the name of the column ( and table, in the previous column) where the value is stored in the original source, and we refer to the data dictionary if the datasource to interpret what it means",""
+so_source_value,Yes,,,"Character","","always recorded as string, if it is a date YYYYMMDD",""
+so_unit,No,,,"Character","see corresponding vocabulary table","same as mo_unit, except when there is a code in so_source_value, please include here the coding system","kg,ICD9"
+so_meaning,Yes,,,"Character","see corresponding vocabulary table","This field captures and classifies relevant infomation with respect to the interpretation of this record. It may capture the prompt, or specificities of the content, from the source of this record. A recommended vocabulary is available, but ultimately it is open and new values can be freely added if deemed relevant.",""
+so_origin,Yes,"name of the source table that originated the record","Character","","This column contains the name of the source table for each record.","",""
+survey_id,Yes,,,"Character","","external key to a SURVEY_ID table, where information on the survey itself is contained",""
