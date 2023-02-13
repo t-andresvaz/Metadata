@@ -1,0 +1,11 @@
+person_id,Mandatory,Description,Format,Vocabulary,Comments,Example1,Example2
+day_of_birth,No,,"Character dd","","If available, include day of birth","",""
+month_of_birth,No,,"Character mm","","If available, include month of birth","",""
+year_of_birth,Yes,,"Character yyyy","","","",""
+day_of_death,No,,"Character dd","","If available, include day of death","",""
+month_of_death,No,,"Character mm","","If available, include month of death","",""
+year_of_death,Yes,,"Character yyyy","","","",""
+sex_at_instance_creation,Yes,"Sex of the person in the moment when in the instance of the CDM is created","Character","M- Male F-Female O- other sex (undetermined) U- Unknown","","M","U"
+race,No,,,"","coding system used can be found on the vocabulary table","",""
+country_of_birth,No,,,"","coding system used can be found on the vocabulary table","",""
+quality,No,"A judgement on the quality of the variables recorded in this table","Character","see corresponding vocabulary table","",""
